@@ -119,12 +119,28 @@ console.log(operacionMatematica(5,6,sumaDePotencias));
   
   console.log(listaDoblada);
 
-function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
-  //Devolver un nuevo array con los elementos que cumplen la condición
-  //Tu código:
-}
+    //Devolver un nuevo array con los elementos que cumplen la condición
+    //Tu código:
+    arreglo=['aaron','analfabeta','maguila','arrastras']
 
+    function filtrador(palabra){
+        if(palabra.charAt(0)==='a'){
+            return palabra;
+        }
+        else{ 
+           
+        return delete palabra ;
+        }
+    
+    }
+    
+    filtrado=arreglo.map(filtrador);
+    depurado=filtrado.filter(Boolean);
+    
+    console.log(depurado);
+    
+    
 // No modificar nada debajo de esta línea
 // --------------------------------
 

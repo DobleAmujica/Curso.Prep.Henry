@@ -1,0 +1,22 @@
+h1{
+    color:chocolate;
+}
+
+img{
+    width: 400px;
+}
+
+#thirdDiv{
+    height: 500px;
+    width: 600px;
+    padding: 50px;
+    border-width: 20px;
+    border: solid;
+    border-color: crimson;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
